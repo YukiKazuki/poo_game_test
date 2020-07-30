@@ -28,7 +28,7 @@ int WINAPI wWinMain( HINSTANCE hInst,HINSTANCE,LPWSTR pArgs,INT )
 	{
 		MainWindow wnd( hInst,pArgs );		
 		try
-		{
+		{//test
 			Game theGame( wnd );
 			while( wnd.ProcessMessage() )
 			{
